@@ -12,7 +12,7 @@ instance Functor Pair where
 -- a = tip fantoma
 data Constant a b = Constant b
 instance Functor (Constant a) where
-    fmap f(Constant b) = Constant (f b)
+    fmap f (Constant b) = Constant (f b)
 
 
 data Two a b = Two a b
